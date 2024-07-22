@@ -6,6 +6,7 @@
     - [x] if user is not logged in then redirect to /login endpoint
     - [ ] use key value encrypted pair to check if provided values are correct
     - [x] use a token for authentication which is saved in database and written locally
+- [ ] Switch database to postgres for better performance
 - [ ] Pull ideas from database
 
 # Feature TODO List

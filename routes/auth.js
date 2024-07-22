@@ -34,9 +34,14 @@ router.get("/signup", function (req, res, next) {
 router.post("/signup", async function (req, res, next) {
 	const { email, password, username } = req.body;
 	const query = { email: email, username: username, password: password, token: uuidv4() };
-	await users.insertOne(query);
-	res.cookie("token", query.token);
-	res.redirect("/");
+	if (await users.findOne({ email: email })) {
+		res.render("signup", { error: "Email already exists" });
+		return;
+	} else {
+		await users.insertOne(query);
+		res.cookie("token", query.token);
+		res.redirect("/");
+	}
 });
 
 router.get("/logout", async function (req, res, next) {

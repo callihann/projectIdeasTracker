@@ -10,7 +10,7 @@ require("dotenv").config();
 var indexRouter = require("./routes/index");
 var userRouter = require("./routes/user");
 var authRouter = require("./routes/auth");
-
+var apiRouter = require("./routes/api");
 var app = express();
 
 // view engine setup
@@ -26,6 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/", indexRouter);
 app.use("/auth", authRouter);
 app.use("/user", userRouter);
+app.use("/api", apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
