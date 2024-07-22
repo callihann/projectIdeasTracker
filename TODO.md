@@ -2,10 +2,59 @@
 - [x] Pull secrets from env
 - [x] Setup database connection and schema
 - [ ] Setup user authentication
-    - [ ] check if user is logged in
-    - [ ] if user is not logged in then redirect to /login endpoint
+    - [x] check if user is logged in
+    - [x] if user is not logged in then redirect to /login endpoint
     - [ ] use key value encrypted pair to check if provided values are correct
-    - [ ] use a token for authentication which is saved in database and written locally
+    - [x] use a token for authentication which is saved in database and written locally
 - [ ] Pull ideas from database
 
 # Feature TODO List
+- [ ] Implement user profile page
+- [ ] Add ability to create new ideas
+- [ ] Implement search functionality for ideas
+- [ ] Add pagination to the list of ideas
+- [ ] Implement sorting options for ideas
+- [ ] Add error handling for database operations
+- [ ] Write unit tests for the authentication module
+- [ ] Implement password reset functionality
+- [ ] Add email notifications for important events
+- [ ] Improve UI/UX design of the application
+- [ ] Optimize database queries for better performance
+- [ ] Implement user roles and permissions system
+- [ ] Add support for multiple languages
+- [ ] Implement social media sharing for ideas
+- [ ] Add comments section for each idea
+- [ ] Implement real-time updates using websockets
+- [ ] Write documentation for the project
+- [ ] Conduct security audit and fix any vulnerabilities
+- [ ] Deploy the application to a production server
+- [ ] Set up automated backups for the database
+- [ ] Monitor application performance and logs
+- [ ] Implement analytics to track user behavior
+- [ ] Conduct user testing and gather feedback
+- [ ] Continuously improve and iterate on the application
+- [ ] Celebrate the successful completion of the project!- [ ] Implement user profile page
+- [ ] Add ability to create new ideas
+- [ ] Implement search functionality for ideas
+- [ ] Add pagination to the list of ideas
+- [ ] Implement sorting options for ideas
+- [ ] Add error handling for database operations
+- [ ] Write unit tests for the authentication module
+- [ ] Implement password reset functionality
+- [ ] Add email notifications for important events
+- [ ] Improve UI/UX design of the application
+- [ ] Optimize database queries for better performance
+- [ ] Implement user roles and permissions system
+- [ ] Add support for multiple languages
+- [ ] Implement social media sharing for ideas
+- [ ] Add comments section for each idea
+- [ ] Implement real-time updates using websockets
+- [ ] Write documentation for the project
+- [ ] Conduct security audit and fix any vulnerabilities
+- [ ] Deploy the application to a production server
+- [ ] Set up automated backups for the database
+- [ ] Monitor application performance and logs
+- [ ] Implement analytics to track user behavior
+- [ ] Conduct user testing and gather feedback
+- [ ] Continuously improve and iterate on the application
+- [ ] Celebrate the successful completion of the project!
